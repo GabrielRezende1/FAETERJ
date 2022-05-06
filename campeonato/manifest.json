@@ -1,0 +1,39 @@
+{
+  "name": "Cadastro de Jogadores",
+  "short_name": "CadJogadores",
+  "categories": ["education","social"],
+  "start_url": "/",
+  "scope": ".",
+  "shortcuts" : [
+    {
+      "name": "Cadastro de Jogadores",
+      "url": "/",
+      "description": "Cadastro de Jogadores"
+    }
+  ],
+  
+  "icons": [
+	    {
+	      "src": "/images/icon.jpeg",
+	      "sizes": "512x512",
+        "type": "image/jpeg"
+	    }
+	  ],
+  "orientation": "portrait-primary",
+  
+  
+  "screenshots" : [
+    {
+      "src": "/images/icons/512-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "Screenshot"
+    }
+  ],
+  
+  "display_override": ["window-control-overlay", "minimal-ui"],
+  "display": "fullscreen",
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2"
+}
